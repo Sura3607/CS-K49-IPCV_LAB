@@ -86,7 +86,7 @@ def bfs(img,visited,i,j):
                 if 0 <= nx < len(img) and 0 <= ny < len(img[0]):
                     if not visited[nx][ny] and img[nx,ny] == 0:
                         visited[nx][ny] = True
-                        queue.append((nx, ny))
+                        queue.append((nx, ny)) 
     return pixel                       
 
 def all_components(img):
